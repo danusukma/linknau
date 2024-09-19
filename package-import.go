@@ -1,17 +1,10 @@
-//  3. Pakage Management is Go’s package management is based on modules.
-//     Each Go project is defined as a module, which can have dependencies on other modules.
-//     The Go toolchain uses go.mod files to track dependencies.
-
-//     How to Import:
-//	   go mod init your-module-name
-//     go get github.com/danusukma/linknau/helper
-
+//  3. Packages are places that can be used to organize the program code that we create in Go-Lang.
+//     Example import from helper folder
 package main
 
 import (
 	"fmt"
-
-	"github.com/danusukma/linknau/helper"
+	"linknau/helper"
 )
 
 func main() {
